@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { createBlog } from '../../actions/blogActions';
 import { useDispatch } from '../../state/BlogProvider';
 
