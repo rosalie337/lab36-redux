@@ -6,7 +6,7 @@ const BlogForm = () => {
     const dispatch = useDispatch();
 
     const [title, setTitle] = useState('');
-    const [author, setAuthor] = useState(1);
+    const [author, setAuthor] = useState('');
     const [body, setBody] = useState('');
 
     const handleSubmit = event => {
@@ -21,7 +21,7 @@ const BlogForm = () => {
                 type="text"
                 placeholder="Title"
                 value={title}
-                onChange={({ target }) => setName(target.value)}
+                onChange={({ target }) => setTitle(target.value)}
             />
             <input
                 type="text"
@@ -35,6 +35,7 @@ const BlogForm = () => {
                 value={body}
                 onChange={({ target }) => setBody(target.value)}
             />
+            <button>Create Blog</button>
         </form>          
     );
 };

@@ -24,3 +24,5 @@ Blog.propTypes = {
     body: PropTypes.string.isRequired
 
 };
+
+export default Blog;

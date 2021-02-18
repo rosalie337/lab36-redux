@@ -1,4 +1,4 @@
-import React, { createContext, useContent, useReducer } from 'react';
+import React, { createContext, useContext, useReducer } from 'react';
 import reducer, { initialState } from '../reducers/blogReducer';
 
 const BlogContext = createContext(null);
