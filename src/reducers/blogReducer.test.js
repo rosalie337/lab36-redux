@@ -21,12 +21,10 @@ describe('blog reducer', () => {
             }]
     });
 
-    it.only('handles the DELETE_BLOG action', () => {
+    it('handles the DELETE_BLOG action', () => {
         const state = {
             blogs: [{ 
-                title: 'some blog name', 
-                author: 'Rosalie Lee', 
-                body: 'some stuff you type in a blog'
+                title: 'some blog name'
             }]
         };
 
