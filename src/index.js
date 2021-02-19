@@ -4,7 +4,7 @@ import App from './components/app/App';
 import { BlogProvider } from './state/BlogProvider';
 
 render(
-  <BlogProvider>
+  <BlogProvider store={store}>
     <App />
   </BlogProvider>,
   document.getElementById('root')
