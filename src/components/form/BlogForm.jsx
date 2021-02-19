@@ -10,7 +10,7 @@ const BlogForm = () => {
     const [body, setBody] = useState('');
 
     const handleSubmit = event => {
-        event.PreventDefault();
+        event.preventDefault();
 
         dispatch(createBlog({ title, author, body}));
     };
