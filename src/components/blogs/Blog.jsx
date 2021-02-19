@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { deleteBlog } from '../../actions/blogActions'
 import { useDispatch } from 'react-redux';
